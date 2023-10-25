@@ -4,5 +4,9 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  daisyui: {
+    themes: ["synthwave"],
+  },
+  plugins: [require('daisyui')],
 };
+
